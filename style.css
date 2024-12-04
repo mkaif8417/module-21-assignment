@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    /* border: 2px solid red; */
+    background-image: url("ASSETS/pexels-maxyne-barcel-10402282 1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.logo{
+    width: 70px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.first-part{
+    display: flex;
+    justify-content: space-around ;
+}
+.first-part li{
+    list-style: none;
+}
+
+.navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.navbar li{
+    margin-left: 20px;
+    color:white;
+font-weight: bold;
+    cursor: pointer;
+}
+
+
+.btn{
+    margin:20px;
+    background-color: red;
+    color: white;
+    border:2px solid red;
+    cursor:pointer;
+    padding: 5px;
+    border-radius: 5px;
+   font-family: cursive;
+    
+}
+.navbar li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: gold;
+}
+
+.btn:hover{
+font-weight: bold;
+background-color: rgb(250, 46, 46);
+}
+
+h1{
+
+    color:goldenrod;
+    justify-self: center;
+    font-family:cursive;
+    font-size: 50px;
+    margin-left: 25%;
+    margin-top: 6%;
+    margin-right: 25%;
+}
+
+    .btn1{
+background-color: red;
+color: white;
+font-family: cursive;
+margin-left: 45%;
+cursor: pointer;
+padding: 8px;
+border: 2px solid red;
+font-weight: bold;
+border-radius: 6px;
+    }
+    .btn1:hover{
+        font-weight: normal;
+    }
+
+    .img1{
+        width: 100px;
+        margin-left: 276px;
+    }
